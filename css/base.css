@@ -1,0 +1,138 @@
+html,body{height: 100%;overflow-x: hidden;}
+.fa-circle{color:red;font-size: 13px;}
+#wrap{height: 100%;width: 100%;}
+.whiteBlock{position:relative;width: 100%;height: 100px;background-color: #fff;}
+.header{position:fixed;top:0;left:0;width: 99%;z-index: 99;height: auto;background-color: #303030;}
+.header .headerTop{width: auto;height: 40px;padding:0 20px;margin:0 auto;background-color: #303030;text-align: center;color:#fff;line-height: 40px;font-size: 12px;}
+.header .headerTop p a{text-decoration: underline;}
+.header .headerTop p span{font-weight: 700;}
+.header .nav{width: 100%;height: 94px;background-color: #fff;}
+.header .nav .log{width: 1220px;padding:0 20px;margin:0 auto;box-sizing: border-box;}
+.header .nav .log img{width: 220px;height: auto;margin-left: 20px;float:left}
+.header .nav .log .navLi .liNode{position:relative;float: left;margin-left: 30px;line-height: 90px;}
+.header .nav .log .navLi .liNode a{position:relative;color:#000;font-size: 12px;font-weight: 550;}
+.header .nav .log .navLi .liNode a:hover{color:#FF1634}
+.header .nav .log .navLi .liNode a i{position:absolute;top: -3px;;margin-left: 3px;}
+.header .nav .log .navLi .liNode:last-child a{background-color: #FF1634;border-radius: 4px;padding:10px 15px;color:#fff;}
+.header .nav .log .navLi .liNode .hidBlock{display:none;position:absolute;top:80px;left: 0;;width: 200px;height: auto;background-color: #fff;line-height: 10px;}
+.header .nav .log .navLi .liNode .hidBlock li{height: 20px;box-sizing: border-box;margin-left:10px;}
+.header .nav .log .navLi .liNode .hidBlock li:first-child{margin-top:20px}
+.header .nav .log .navLi .liNode .hidBlock li a{font-weight: lighter;}
+
+/* banner */
+.banner .slideshow{position:relative;width: 1382px;height: 520px;overflow: hidden;}
+.banner .slideshow .pictureShow .ulNode{position:absolute;left:-1382px;top: 0;width: 8292px;height: 520px;}
+.banner .slideshow .pictureShow .ulNode li{float:left;width: 1382px;height: 520px;}
+.banner .slideshow .pictureShow .ulNode li img{width: 100%;}
+.banner .slideshow .pictureShow .picturePoint{position: absolute;left: 50%;transform: translateX(-50%);bottom: 40px;}
+.banner .slideshow .pictureShow .picturePoint li{float:left;width: 20px;height: 20px;border-radius: 50%;margin-left: 15px;background-color:rgb(255,255,255,0.6);cursor: pointer;}
+.banner .slideshow .pictureShow .picturePoint li.current{background-color: rgb(255,255,255,1);}
+
+.banner .Mediadetail{width: auto;height: 120px;text-align: center;line-height: 120px;font-size: 24px;font-weight:bold;background-color: #000;color:#fff}
+.banner .address{position:relative;width: auto;height: 320px;box-sizing: border-box;}
+.banner .address img{width: 100%;height: 100%;}
+.banner .address a{position:absolute;top:0;left:0;display: block;width: 33%;height: 320px;font-size: 55px;text-align: center;line-height: 320px;transition:0.4s font-size;}
+.banner .address a:nth-of-type(2){left:33%}
+.banner .address a:nth-of-type(3){left:66%;}
+.banner .address a:hover{font-size:64px}
+.banner .handbook{padding:64px 10px;}
+.banner .handbook .leftInfo,.banner .onlineForm .leftInfo,.banner .homeDetail .leftInfo,.banner .subscribe .leftInfo{float:left;text-align: justify;width: 550px;height: 300px;box-sizing: border-box;margin-left:100px}
+
+.banner .handbook .leftInfo h2{font-size: 36px;margin-bottom: 10px;}
+.banner .handbook .leftInfo h4,.banner .onlineForm .leftInfo h4,.banner .homeDetail .rightInfo h3,.banner .subscribe .rightInfo{font-size: 16px;margin:20px 0;font-weight: bold;}
+.banner .handbook .leftInfo p,.banner .onlineForm .leftInfo p,.banner .homeDetail .rightInfo p{font-size:12px;line-height: 20px;}
+/* button */
+.button{position:relative;margin-top: 20px;width: 400px;}
+.button .red, .button .black{ display: block;height: 50px;font-size: 16px;text-align: center;border-radius: 4px;font-weight: 700;}
+.button .red{background-color: #FF1634;}
+.button .black{background: #000;position: absolute;top:0;left: 0;width:0;overflow: hidden;transition:0.1s width;}
+.button:hover .black {width: 100%;}
+.button .red p{position:absolute;top: 50%;left:50%;transform:translate(-50%,-50%);z-index: 100;width: 100%;}
+
+
+.banner .handbook .rightInfo,.banner .onlineForm .rightInfo,.banner .homeDetail .rightInfo{float:left}
+
+.banner .onlineForm{color:#fff;background-image: url('../img/banner.jpg');background-repeat: no-repeat;background-position: center;background-size: cover;padding:64px 20px 32px;}
+.banner .onlineForm .leftInfo form input,.banner .subscribe .rightInfo input{height: 60px;text-indent: 1em;border-radius: 4px;border:0;padding: 0;width: 49%;margin-top: 20px;}
+.banner .onlineForm .leftInfo form button,.banner .subscribe .rightInfo button{background-color: #FF1634; margin-top:20px;padding:10px 20px;border-radius: 4px;border:none;color:#fff;font-weight: bold;font-size:17px;cursor: pointer;}
+.banner .onlineForm .rightInfo img{width: 550px;height: auto;}
+
+.banner .homeDetail{background-color:#F4F4F4 ;padding:64px 0 36px;}
+.banner .homeDetail .leftInfo {height: 341px;width: auto;box-sizing: border-box;margin-right:100px}
+.banner .homeDetail .rightInfo{width: 400px;height: 300px;}
+.banner .homeDetail .rightInfo .button{width: 150px;}
+
+.banner .typesOfPreoperty{position:relative;background-color: #000;padding:40px 60px;color:#fff}
+.banner .typesOfPreoperty h3{float:left;margin-top: 100px;transform: rotate(-90deg);font-size:20px}
+.banner .typesOfPreoperty .rightBox{float:left;margin-left:-55px;}
+.banner .typesOfPreoperty .rightBox li:last-child{position: absolute;top: 39px;right: 100px;}
+.banner .typesOfPreoperty .rightBox li{position: relative;margin-bottom:20px;}
+.banner .typesOfPreoperty .rightBox li div{position:absolute;top: 50%;left: 50%;;transform:translateX(-50%) translateY(-50%);font-weight: bold;}
+
+.banner .subscribe{background-color: #FF1634;}
+.banner .subscribe .leftInfo{height: 260px;padding:40px 10px;}
+.banner .subscribe .leftInfo h2 span{color: #000;margin-left: -10px;}
+.banner .subscribe .leftInfo h2{font-size: 30px;color:#fff;font-weight: bolder;;}
+.banner .subscribe .leftInfo p{font-size: 13px;margin-top: 20px;line-height: 1.78;margin-right:120px}
+.banner .subscribe .rightInfo{width: 50%;float: right;}
+.banner .subscribe .rightInfo input:first-child,.banner .subscribe .rightInfo input:nth-child(2){width:40%;}
+.banner .subscribe .rightInfo input:nth-child(3){width: 65%;}
+.banner .subscribe .rightInfo button{background-color: #000;margin-left: 10px;padding:20px;}
+
+.banner .finishedProject{background-color: #000;color:#fff;text-align: center;}
+.banner .finishedProject .finishedround{padding:40px}
+.banner .finishedProject .finishedround .wordBlock{padding:40px 30px}
+.banner .finishedProject .finishedround .wordBlock h2{font-size: 30px;font-weight: bolder;}
+.banner .finishedProject .finishedround .wordBlock h2 span{color:#FF1634}
+.banner .finishedProject .finishedround .wordBlock p{font-size: 13px;margin-top: 30px;}
+.banner .finishedProject .finishedround .button{width: 200px;margin:0 auto;}
+.banner .finishedProject .finishedround .button .black{background: #fff;}
+.banner .finishedProject .finishedround .button:hover p {color:#000}
+/* vedio? */
+
+.banner .PersonDetail{position:relative;background-image: url('img/WC-directors-background-e1580875606552.jpg.webp');background-repeat: no-repeat;background-size: 100%;width: auto;height: 510px;}
+.banner .PersonDetail .blockContect{position:absolute;width: 440px;background-color: #fff;top: 40px;right: 150px;}
+.banner .PersonDetail .blockContect img{width: 64px;height: auto;margin:30px;}
+.banner .PersonDetail .blockContect h2{margin-left:30px;font-weight: 600;font-size:20px;width: 300px;line-height: 1.5;}
+.banner .PersonDetail .blockContect>p{margin:30px 0 10px 30px;font-size:11px;width: 400px;line-height: 1.8;}
+.banner .PersonDetail .blockContect .button{width: 200px;margin:0 0 20px 30px;}
+
+.banner .mainAddress{background-color: #000;color:#fff;text-align: center;}
+.banner .mainAddress img{width: 40px;margin: 30px 0 10px;}
+.banner .mainAddress h2{font-size: 36px;margin-bottom: 20px;}
+.banner .mainAddress .locationAddress{width: 70%;;margin:10px auto;font-size: 13px;line-height: 1.7;}
+.banner .mainAddress .locationAddress .location{float: left;padding: 40px;}
+.banner .mainAddress .locationAddress .location span{color:#FF1634}
+.banner .mainAddress .locationAddress .location p:first-child,.banner .mainAddress .locationAddress .location p:nth-child(2){margin-bottom: 20px;}
+.banner .mainAddress .locationAddress .location a{color:#FF1634}
+.banner .video{text-align: center;}
+
+/* footer */
+.footer{background-color: #000;color:#fff}
+.footer .footerNav{padding:30px;width: 80%;margin:0 auto;}
+.footer .footerNav .left,.footer .footerNav .right{position:relative;float:left;width: 300px;height: 400px;margin-right: 40px;font-size: 13px;line-height: 1.5;text-align: left;}
+.footer .footerNav .left img{width: 210px;}
+.footer .footerNav .left .footerWord{padding-left:10px}
+.footer .footerNav .left .footerWord .button{width: 150px;}
+.footer .footerNav .left .footerWord .button .black{background: #fff;}
+.footer .footerNav .left .footerWord .button:hover p {color:#000}
+
+.footer .footerNav .left .icon{position: absolute;bottom: 0;left:10px;}
+.footer .footerNav .left .icon a{margin:5px;font-size: 20px;}
+
+.footer .footerNav .right{margin-left:20px;width: 700px;}
+.footer .footerNav .right .top{font-weight: 600;}
+.footer .footerNav .right .top p span,.footer .footerNav .right .down div p span{color:#FF1634}
+.footer .footerNav .right .top div{padding:15px 0;border-bottom: 1px solid #fff;}
+.footer .footerNav .right .top div:hover a{color:#FF1634}
+.footer .footerNav .right .down div{float:left;margin:20px 24px;line-height: 1.7;}
+.footer .footerNav .right .down div:first-child{margin-left:0px}
+.footer .footerNav .right .down div p{font-weight:bolder;}
+.footer .footerNav .right .down div a{display: block;font-size:11px}
+.footer .footerNav .right .down div a:hover{color:#FF1634}
+
+.footer .bottom{font-size: 11px;width:80%;margin:0 auto;padding:10px 0 40px 0;border-top: 1px solid #FF1634;}
+.footer .bottom .bootomLeft{float:left}
+.footer .bottom .bootomRight{float:right}
+
+
